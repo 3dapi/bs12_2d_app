@@ -1,15 +1,14 @@
-//
+﻿//
 //
 ////////////////////////////////////////////////////////////////////////////////
 
 #ifndef __STDAFX_H_
 #define __STDAFX_H_
 
-
-#pragma comment(lib, "winmm.lib")
-
+#pragma comment(lib, "legacy_stdio_definitions.lib")
 #pragma comment(lib, "d3d9.lib")
 #pragma comment(lib, "d3dx9.lib")
+#pragma comment(lib, "winmm.lib")
 
 #include <windows.h>
 
